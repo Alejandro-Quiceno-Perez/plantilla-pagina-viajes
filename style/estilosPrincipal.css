@@ -61,12 +61,13 @@ sin tener que poner display flex*/
 
 .menu-lista-navegacion a {
     font-size: var(--sm);
+    font-weight: bold;
     color: var(--gris-letras);
     text-decoration: none;
 }
 
 .menu-lista-navegacion  a:hover {
-    color: #4371B3;
+    color:var(--hover-links);
 }
 
 /*Iconos Redes*/
@@ -149,7 +150,7 @@ sin tener que poner display flex*/
 }
 
 .container-imagenes {
-    margin-bottom: 500px;
+    margin-bottom: 130px;
 }
 .caja-imagnes {
     text-align: center;
@@ -179,7 +180,7 @@ sin tener que poner display flex*/
     position: absolute;
     top: 15%;
     left: 38%;
-    color: #2573DA;
+    color: var(--gris-letras);
     text-decoration: none;
     font-size: 25px;
 }
@@ -187,9 +188,31 @@ sin tener que poner display flex*/
     position: absolute;
     top: 15%;
     left: 30%;
-    color: #2573DA;
+    color: var(--gris-letras);
     text-decoration: none;
     font-size: 25px;
 }
 
+.enlace-1:hover{
+    color: var(--hover-links);
+}
+.enlace-2:hover{
+    color: var(--hover-links);
+}
+.enlace-3:hover{
+    color: var(--hover-links);
+}
 
+
+/*Subtitulos de publicidad*/
+/*
+.container-sub__publicidad {
+    text-align: center;
+    margin-bottom: 200px;
+}
+.container-subtitulos{
+    display: inline-block;
+    margin: 0 25px;
+    text-align: start;
+}
+*/
