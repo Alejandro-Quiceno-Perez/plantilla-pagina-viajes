@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-family:sans-serif;
 }
 
 .container-fluid {
@@ -233,14 +234,50 @@ sin tener que poner display flex*/
 
 
 /*Subtitulos de publicidad*/
-/*
-.container-sub__publicidad {
+
+.container-info {
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    padding: 25px;
 }
-.container-subtitulos{
+
+.container-info div {
     display: inline-block;
-    margin: 0 25px;
-    text-align: start;
+    margin: 0 50px;
 }
-*/
+.info-mencion p{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.info-blog {
+    text-align: left;
+    font-size: 20px;
+}
+.info-blog span {
+    font-weight: 900;
+}
+
+.info-planetour {
+    font-size: 20px;
+}
+.bi-emoji-sunglasses {
+    font-weight: bold;
+    color: #C8232C;
+    font-size: 25px;
+}
+.info-planetour span {
+    font-weight: 900;
+}
+
+.info-mundoviaje {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.info-skycloud {
+    font-size: 20px;
+    text-align: end;
+    font-weight: 900;
+}
