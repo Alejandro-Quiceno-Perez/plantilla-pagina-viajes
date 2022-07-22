@@ -1,3 +1,73 @@
+.container-card {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
 .card-img img {
-    width: 45rem;
+    width: 65rem;
+    height: 35rem;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img img:hover {
+    transform: scale(1.05);
+}
+
+.info-personal {
+    width: 50rem;
+    margin: 0.1rem auto;
+    margin-bottom: 2rem;
+    text-align: start;
+}
+
+.info-persona {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.info-persona .bi-person-circle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--border-gris);
+}
+
+.info-personal-descripcion p {
+    margin: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.info-personal-descripcion p:nth-child(1) {
+    font-size: 1rem ; 
+}
+
+.enlaces {
+    margin: 2rem 0;
+}
+
+.enlaces h3 {
+    margin: 1rem 0;
+}
+
+.enlaces h3 a {
+    text-decoration: none;
+    color: var(--gris-letras);
+}
+
+.enlaces h3 a:hover{
+    color: var(--hover-links);
+}
+
+.eye-icon, .comentary-icon, .like-icon {
+    display: inline;
+    margin: 0.2rem 0.8rem;
+}
+
+.comentary-icon:hover {
+    cursor:pointer;
 }

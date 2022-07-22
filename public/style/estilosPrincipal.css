@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family:sans-serif;
 }
+
+html {
+    font-size: 16.5px;
+}
+
+body {
+    background: var(--fondo);
+}

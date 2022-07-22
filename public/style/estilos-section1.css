@@ -34,7 +34,7 @@
     height: 18%;
     position: absolute;
     top: 45%;
-    background: var(--blanco);
+    background-color: var(--blanco);
     text-align: center;
     display: flex;
 }
