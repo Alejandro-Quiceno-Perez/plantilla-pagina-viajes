@@ -12,5 +12,178 @@
 
 
 footer {
-    margin-top: 8rem;
+    background-color: var(--border-gris);
+    padding: 5rem;
+    width: 100%;
+    position: absolute;
+}
+
+.container-footer {
+    margin: 3rem auto;
+    width: 80rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    /* background-color: aqua; */
+}
+
+.description-personal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container-img-personal img {
+    width: 12rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.container-persona-info {
+    margin-left: 0.8rem;
+}
+
+.container-persona-info h2 {
+    margin: 0.8rem 0;
+}
+
+.enlace-footer {
+    margin: 0.8rem 0;
+}
+
+.enlace-footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--negro);
+}
+
+.enlace-footer a:hover {
+    color: var(--hover-links);
+}
+
+/*INPUT ESTILOS*/
+
+
+
+.container-login {
+    margin: 0.6rem 1.5rem;
+}
+
+.login {
+    margin-top: 1.2rem;
+}
+
+/* .login input {
+    background-color: transparent;
+    display: block;
+    margin-bottom: 2em;
+    border: none;
+    border-bottom: 1px solid var(--border-gris);
+    padding: 0.5rem;
+
+}
+
+
+.input-border {
+    position: absolute;
+    background: cyan;
+    transition: 0.3s;
+} */
+
+.form {
+    --width-of-input: 200px;
+    --border-height: 1px;
+    position: relative;
+    width: var(--width-of-input);
+}
+
+/* styling of Input */
+.input {
+    color: black;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: 0.1px solid var(--hover-links);
+}
+
+/* styling of animated border */
+.input-border {
+    position: absolute;
+    background: var(--hover-links);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.form input::placeholder {
+    color: var(--negro);
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus~.input-border {
+    width: 100%;
+}
+
+/*Button registrar*/
+
+button {
+    padding: 0.5rem 3.8rem;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--hover-links);
+    z-index: -1;
+    transition: all 250ms
+}
+
+button:hover {
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+button:hover::before {
+    width: 100%;
+}
+
+.login button {
+    margin-top: 1rem;
+}
+
+.container-derechos-autor {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container-derechos-autor p a {
+    text-decoration: none;
+    color: var(--negro);
+    font-weight: bold;
+}
+
+.container-derechos-autor p a:hover {
+    color: var(--hover-links);
 }

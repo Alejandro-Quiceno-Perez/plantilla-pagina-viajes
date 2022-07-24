@@ -127,7 +127,7 @@ sin tener que poner display flex*/
 
 /*Contenedor imgaen*/
 .img-fondo {
-    background-image: url(/imagenes/viaje2.jpg);
+    background-image: url(/imagenes/viaje2.jpg) ;
     background-position-y: -4rem;
     width: 100%;
     height: 45vh;
